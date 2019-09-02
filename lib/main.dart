@@ -95,7 +95,7 @@ class _CtechAppState extends State<CtechApp> {
                   title: Text("info@catlow.tech"),
                   onTap: () async {
                     var emailUrl =
-                        '''mailto:info@catlow.tech?subject=More information on CatlowTech&body=Hi Sam,\n\nI'd like more info on: ''';
+                        '''mailto:info@catlow.tech?subject=More information on CatlowTech&body=Hi,\n\nI'd like more info on: ''';
                     var out = Uri.encodeFull(emailUrl);
                     await launch(out);
                   },
