@@ -1,4 +1,4 @@
-package com.example.samcat
+package tech.catlow.catlowtechdev
 
 import android.os.Bundle
 
